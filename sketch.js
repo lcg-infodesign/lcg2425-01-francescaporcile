@@ -10,8 +10,8 @@ function setup() {
 //funzione che stabilisce quanti quadratini devono stare lungo tutta l'altezza e la larghezza della griglia
 //L'attributo "floor" viene utilizzato per arrotondare per difetto un numero decimale al numero intero più vicino
 //floor consente quindi che il numero di quadrati calcolato per riempire la griglia sia sempre un numero intero
-  gridSizeX = floor((width - 2 * padding + spacing) / (squareSize + spacing));
-  gridSizeY = floor((height - 2 * padding + spacing) / (squareSize + spacing));
+  gridSizeX = floor((width - 2 * padding + spacing) / (squareSize + spacing)); //righe
+  gridSizeY = floor((height - 2 * padding + spacing) / (squareSize + spacing));//colonne
 
 // Genera angoli di rotazione casuali tra questi due valori definiti: 0 gradi e 45 gradi 
 //Crea un array lungo quanto il numero totale di quadrati (griglia X * griglia Y).
